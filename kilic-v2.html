@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KılıçV2 Asistan | ALPER OSMAN KILIK</title>
+    <meta name="description" content="KılıçV2, çoklu LLM soyutlama katmanına sahip, Windows işletim sistemi otomasyonu yapabilen yapay zeka asistanı." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="preload" href="styles.css" as="style" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased">
+    <div class="mobile-nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="projeler.html" class="active">Projeler</a>
+        <a href="iletisim.html">İletişim</a>
+        <div class="lang-switch" aria-label="Dil secimi">
+            <a href="kilic-v2.html" class="lang-link lang-link-active">TR</a>
+            <a href="kilic-v2-en.html" class="lang-link">EN</a>
+        </div>
+    </div>
+    <main class="page-shell">
+        <header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projeler</p>
+                <p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">KılıçV2 Asistan</p>
+            </div>
+            <div class="flex items-center justify-between gap-4 w-full sm:w-auto">
+                <nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    <a href="hakkimda.html" class="nav-link">Hakkımda</a>
+                    <a href="projeler.html" class="nav-link nav-link-active">Projeler</a>
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </nav>
+                <div class="hidden sm:flex lang-switch" aria-label="Dil secimi">
+                    <a href="kilic-v2.html" class="lang-link lang-link-active">TR</a>
+                    <a href="kilic-v2-en.html" class="lang-link">EN</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
+            <!-- Üst Asimetrik Grid Yapısı -->
+            <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
+                
+                <!-- Sol Kolon -->
+                <div class="space-y-6">
+                    <div class="page-card p-6 sm:p-8 lg:p-10">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Masaüstü Otomasyonu & LLM</p>
+                        <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">KılıçV2 AI Asistan</h1>
+                        <p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Jarvis benzeri bir deneyim sunan, Windows işletim sistemi üzerinde derinlemesine komut çalıştırabilen ve ortam değişkenlerine göre OpenAI, Gemini, Groq veya yerel Ollama motorları arasında kesintisiz geçiş yapabilen gelişmiş masaüstü asistan mimarisi.</p>
+                        <div class="mt-6 flex flex-wrap gap-2 text-[11px] sm:text-xs uppercase tracking-[0.2em] text-soft">
+                            <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1">Python Protocol</span>
+                            <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1">OS Automation</span>
+                            <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1">Multi-LLM Wrapper</span>
+                            <span class="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1">Dataclasses</span>
+                        </div>
+                    </div>
+
+                    <div class="grid gap-4 sm:grid-cols-3">
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Soyutlama</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Python `Protocol` yapısı kullanılarak tüm LLM sağlayıcıları tek bir çatı altında standardize edilmiştir.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Otomasyon</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Doğal dil komutlarını Windows sistem API'lerine ve uygulama tetikleyicilerine dönüştürür.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Güvenlik</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">İnternet veya API kesintilerinde `EchoBrain` yerel yedek moduyla sistem kararlılığını korur.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sağ Kolon (Gerçek Kaynak Kod Bloğu) -->
+                <div class="space-y-6">
+                    <div class="page-card p-5 sm:p-6">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Çirdek Beyin Mimarisi (brain.py)</p>
+                        <pre class="mt-4 overflow-x-auto rounded-[1.2rem] border border-white/10 bg-[#0b0f14] p-4 text-[11px] sm:text-[12px] leading-5 text-[#d7d7d7] max-h-[580px] scrollbar-thin"><code>from __future__ import annotations
+from dataclasses import dataclass
+from typing import Protocol
+from .settings import env, env_int
+
+SYSTEM_PROMPT = (
+    "Sen KILIÇ adında bir Windows masaüstü asistanısın. "
+    "Türkçe konuş, kısa ama net ol, gereksiz tekrar yapma..."
+)
+
+class Brain(Protocol):
+    def generate(self, prompt: str, history: list[dict[str, str]] | None = None) -> str:
+        """Verilen girdiye metin yanıtı üretir."""
+
+@dataclass(slots=True)
+class OpenAIBrain:
+    api_key: str
+    model: str = "gpt-4o-mini"
+    max_tokens: int = 256
+
+    def generate(self, prompt: str, history: list[dict[str, str]] | None = None) -> str:
+        from openai import OpenAI
+        client = OpenAI(api_key=self.api_key)
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        if history: messages.extend(history)
+        messages.append({"role": "user", "content": prompt})
+        response = client.chat.completions.create(
+            model=self.model, messages=messages, max_tokens=self.max_tokens
+        )
+        return response.choices[0].message.content.strip()
+
+def create_brain() -> Brain:
+    provider = env("KILIC_LLM_PROVIDER", default="groq").lower()
+    # Dinamik API Sağlayıcı Seçimi...</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teknik Derinlik ve Altyapı Blokları -->
+            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+                
+                <!-- Sağlayıcı Soyutlaması -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Mimari</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Polimorfik Sağlayıcı Soyutlaması</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            `Brain(Protocol)` yapısı, uygulamanın üst katmanlarını belirli bir yapay zeka API'sine bağımlı olmaktan kurtarır. `slots=True` optimizasyonuyla derlenen dataclass'lar, mikro saniyeler seviyesinde nesne üretim hızı sağlar.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Tasarım Kalıbı:</span> Factory Pattern / Structural Subtyping
+                    </div>
+                </div>
+
+                <!-- İşletim Sistemi Entegrasyonu -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between border-t-2 border-[#cc0000]/50">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">OS Otomasyonu</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Akıllı Sistem Komutu Eşleşmesi</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Kullanıcı "şunu yap" dediğinde, niyet analizi (intent parsing) öncelikle yerel Windows alt sistem komutlarıyla karşılaştırılır. Eşleşme yoksa, bağlam kaybolmadan doğrudan aktif LLM katmanına yönlendirilir.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Uç Noktalar:</span> Windows API / Process Spawning / Intent Matching
+                    </div>
+                </div>
+
+                <!-- Hibrit Altyapı (Ollama & Cloud) -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Hibrit Çalışma</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Edge ve Bulut Arasında Esnek Geçiş</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Proje; Groq, OpenAI ve Gemini gibi bulut API'lerinin yanı sıra tamamen internet bağımsız yerel `Ollama (llama3.1)` altyapısını destekler. Bu durum tam gizlilik ve sıfır maliyet seçeneği sunar.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Yerel Motor:</span> HTTP /api/chat (Ollama Local Node)
+                    </div>
+                </div>
+
+                <!-- Geniş Derinlemesine İnceleme Kartı -->
+                <div class="page-card p-6 sm:p-8 lg:col-span-3">
+                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Sistem Mimarisi</p>
+                    <h3 class="mt-2 text-xl font-bold text-white">Gelişmiş Windows Masaüstü Entegrasyonu ve İstek Akış Dinamikleri</h3>
+                    <p class="mt-4 text-sm leading-7 text-soft">
+                        KılıçV2, basit bir sohbet botunun ötesine geçerek işletim sistemiyle çift yönlü konuşabilen bir ajan (agentic loop) altyapısı kurgular. `SYSTEM_PROMPT` katmanında belirlenen katı kurallar; modelin boş onaylar üretmesini engeller ve kullanıcıyı doğrudan sonuca ulaştıracak eylemlere zorlar. Teknik veya bağlamı eksik isteklerde halüsinasyonları önlemek amacıyla "bilmiyorum" mekanizması entegre edilmiştir.
+                    </p>
+                    <p class="mt-3 text-sm leading-7 text-soft">
+                        `create_brain()` fabrikası, çalışma zamanında (runtime) ortam değişkenlerini (`.env`) tarayarak en uygun motoru ayağa kaldırır. API anahtarlarının eksikliği veya ağ kesintileri durumunda sistem çökmelerini engellemek üzere tasarlanan `EchoBrain` katmanı, kullanıcıya anlamlı geri bildirimler üreterek sistemi güvenli bir bekleme durumunda tutar.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="border-t border-white/10 py-6 sm:py-8">
+            <div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <p>ALPER OSMAN KILIK</p>
+                <p>© 2026 Alper Osman Kilik</p>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+</html>

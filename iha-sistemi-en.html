@@ -1,69 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>UAV System | ALPER OSMAN KILIK</title>
-	<meta name="description" content="A UAV mission-planning project that combines tracking and field control in one clean interface." />
-	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-	<link rel="alternate icon" href="favicon.svg" />
-	<link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
-	<link rel="preload" href="styles.css" as="style" />
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAV System | ALPER OSMAN KILIK</title>
+    <meta name="description" content="A comprehensive UAV mission planning, telemetry tracking, and field control console unified under a sleek interface." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="preload" href="styles.css" as="style" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="antialiased">
-	<div class="mobile-nav">
-		<a href="index-en.html">Home</a>
-		<a href="hakkimda-en.html">About</a>
-		<a href="projeler-en.html" class="active">Projects</a>
-		<a href="iletisim-en.html">Contact</a>
-		<div class="lang-switch" aria-label="Language selection">
-			<a href="iha-sistemi.html" class="lang-link">TR</a>
-			<a href="iha-sistemi-en.html" class="lang-link lang-link-active">EN</a>
-		</div>
-	</div>
-	<main class="page-shell">
-		<header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
-			<div>
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projects</p>
-				<p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">UAV System</p>
-			</div>
-			<div class="flex items-center justify-between gap-4 w-full sm:w-auto">
-				<nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
-					<a href="index-en.html" class="nav-link">Home</a>
-					<a href="hakkimda-en.html" class="nav-link">About</a>
-					<a href="projeler-en.html" class="nav-link nav-link-active">Projects</a>
-					<a href="iletisim-en.html" class="nav-link">Contact</a>
-				</nav>
-				<div class="hidden sm:flex lang-switch" aria-label="Language selection">
-					<a href="iha-sistemi.html" class="lang-link">TR</a>
-					<a href="iha-sistemi-en.html" class="lang-link lang-link-active">EN</a>
-				</div>
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-		</header>
-		<section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
-			<div class="page-card p-6 sm:p-8 lg:p-10">
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Short Description</p>
-				<h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">UAV System</h1>
-				<p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Designed to keep mission planning, tracking and field control in one fast, minimal and readable interface.</p>
-			</div>
-		</section>
-		<footer class="border-t border-white/10 py-6 sm:py-8">
-			<div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
-				<p>ALPER OSMAN KILIK</p>
-				<p>© 2026 Alper Osman Kilik</p>
-			</div>
-		</footer>
-	</main>
-	<script src="script.js" defer></script>
+    <div class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="hakkimda.html">About Me</a>
+        <a href="projeler.html" class="active">Projects</a>
+        <a href="iletisim.html">Contact</a>
+        <div class="lang-switch" aria-label="Language selection">
+            <a href="iha-sistemi.html" class="lang-link">TR</a>
+            <a href="iha-sistemi-en.html" class="lang-link lang-link-active">EN</a>
+        </div>
+    </div>
+    <main class="page-shell">
+        <header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projects</p>
+                <p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">UAV System</p>
+            </div>
+            <div class="flex items-center justify-between gap-4 w-full sm:w-auto">
+                <nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="hakkimda.html" class="nav-link">About Me</a>
+                    <a href="projeler.html" class="nav-link nav-link-active">Projects</a>
+                    <a href="iletisim.html" class="nav-link">Contact</a>
+                </nav>
+                <div class="hidden sm:flex lang-switch" aria-label="Language selection">
+                    <a href="iha-sistemi.html" class="lang-link">TR</a>
+                    <a href="iha-sistemi-en.html" class="lang-link lang-link-active">EN</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
+            <!-- Upper Asymmetric Grid Structure -->
+            <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
+                
+                <!-- Left Column -->
+                <div class="space-y-6">
+                    <div class="page-card overflow-hidden p-4 sm:p-5 lg:p-6">
+                        <div class="relative overflow-hidden rounded-[1.5rem] border border-white/10 bg-black">
+                            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(204,0,0,0.12),transparent_40%),radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent_30%)]"></div>
+                            <img src="turk-bayragi.svg" alt="UAV Control Station Interface" class="relative h-[260px] w-full object-cover sm:h-[340px] lg:h-[420px]" loading="eager" decoding="async" />
+                        </div>
+                    </div>
+
+                    <div class="page-card p-6 sm:p-8 lg:p-10">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Engineering & Control</p>
+                        <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">UAV System</h1>
+                        <p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Engineered as an enterprise-grade Ground Control Station (GCS) framework, this system combines autonomous flight path rendering, real-time diagnostic stream telemetry parsing, and high-performance GIS integration into a unified, high-reliability dashboard.</p>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="space-y-6">
+                    <div class="grid gap-4 sm:grid-cols-2">
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Purpose</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">To deploy an unyielding, zero-drop data pipeline that eliminates human cognitive overhead during high-stakes remote flight operations.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Architecture</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Autonomous waypointing grids, gimbal payload deployment hubs, primary flight displays (PFD), and asynchronous computer vision modules.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Design</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Strict military dark-mode guidelines focused on tactical contrast thresholds, rapid situational awareness HUD layouts, and reduced optic strain.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Outcome</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">End-to-end mission oversight featuring sub-second hardware decoding pipelines and smooth, mathematical path planning matrices.</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card p-6 sm:p-8">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Brief Insight</p>
+                        <p class="mt-4 text-sm sm:text-base leading-7 text-soft">This engineering layout converges critical aerospace telemetry requirements onto a single digital canvas. Efficient byte-level deserialization, lightweight artificial intelligence frameworks, and robust geographical vector parsing drive the product's underlying capabilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Deep Dive Blocks -->
+            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+                
+                <!-- Communication Topology Card -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Communication</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">MAVLink Deserialization & Pipeline</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Bi-directional communication between the avionics stack and the GCS uses the rigorous **MAVLink** messaging standard. Incoming byte payloads received over serial or UDP/TCP ports are unpackaged asynchronously to refresh instrumentation dials.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Transport Layer:</span> UDP / TCP & Serial (RS232/TTL)
+                    </div>
+                </div>
+
+                <!-- GIS & Cartography Card -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between border-t-2 border-[#cc0000]/50">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Geospatial Systems</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Offline GIS & Smooth Path Generation</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            To survive degraded combat or rural field zones, an **offline map tile management system** based on customized map layers is deployed. User-defined waypoints are smoothed dynamically via geometric spline algorithms before vehicle upload.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Algorithms:</span> Dubins Path & Waypoint Generation
+                    </div>
+                </div>
+
+                <!-- Hardware Acceleration Card -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Computer Vision</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Low-Latency Video & Target ID</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Live surveillance streams delivered via RTSP/WebRTC are decoded using **FFmpeg** hardware acceleration. Simultaneously, an optimized **YOLOv8** object tracker scans frame configurations to mark terrestrial anomalies with high confidence.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Pipeline:</span> GStreamer / OpenCV / TensorRT
+                    </div>
+                </div>
+
+                <!-- Comprehensive Multi-threading Insight Block -->
+                <div class="page-card p-6 sm:p-8 lg:col-span-3">
+                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Architectural Specifics</p>
+                    <h3 class="mt-2 text-xl font-bold text-white">Multi-threaded Telemetry Management & Critical Failsafe Layers</h3>
+                    <p class="mt-4 text-sm leading-7 text-soft">
+                        The core performance profile of this UAV Ground Control Station is anchored upon strict routine decoupling. To maintain continuous thread safety, UI render rendering, media extraction pipelines, and serial data parsers execute within isolated concurrency trees (worker threads / goroutines). This ensures that even during high-throughput transmission surges exceeding 50Hz telemetry cycles, the human operator interface maintains a rock-solid, responsive feedback path.
+                    </p>
+                    <p class="mt-3 text-sm leading-7 text-soft">
+                        Integrated hardware exception mechanisms track parameters like communication degradation (Link Loss), battery exhaustion, and localized GPS spoofing across microsecond evaluation metrics. Flight operational logs are streamed natively into structured binary variants (ulog/tlog profiles), presenting clean data structures ready for integration into standard programmatic engineering flight simulators for comprehensive post-mission analysis.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="border-t border-white/10 py-6 sm:py-8">
+            <div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <p>ALPER OSMAN KILIK</p>
+                <p>© 2026 Alper Osman Kilik</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js" defer></script>
 </body>
 </html>

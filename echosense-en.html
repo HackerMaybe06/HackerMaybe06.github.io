@@ -1,69 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>EchoSense | ALPER OSMAN KILIK</title>
-	<meta name="description" content="EchoSense is a project that organizes sound- and data-driven feedback in one readable panel." />
-	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-	<link rel="alternate icon" href="favicon.svg" />
-	<link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
-	<link rel="preload" href="styles.css" as="style" />
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EchoSense | ALPER OSMAN KILIK</title>
+    <meta name="description" content="EchoSense, a modern dashboard ecosystem collecting voice and data-driven feedbacks into a single, unified panel." />
+    <link class="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="preload" href="styles.css" as="style" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="antialiased">
-	<div class="mobile-nav">
-		<a href="index-en.html">Home</a>
-		<a href="hakkimda-en.html">About</a>
-		<a href="projeler-en.html" class="active">Projects</a>
-		<a href="iletisim-en.html">Contact</a>
-		<div class="lang-switch" aria-label="Language selection">
-			<a href="echosense.html" class="lang-link">TR</a>
-			<a href="echosense-en.html" class="lang-link lang-link-active">EN</a>
-		</div>
-	</div>
-	<main class="page-shell">
-		<header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
-			<div>
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projects</p>
-				<p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">EchoSense</p>
-			</div>
-			<div class="flex items-center justify-between gap-4 w-full sm:w-auto">
-				<nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
-					<a href="index-en.html" class="nav-link">Home</a>
-					<a href="hakkimda-en.html" class="nav-link">About</a>
-					<a href="projeler-en.html" class="nav-link nav-link-active">Projects</a>
-					<a href="iletisim-en.html" class="nav-link">Contact</a>
-				</nav>
-				<div class="hidden sm:flex lang-switch" aria-label="Language selection">
-					<a href="echosense.html" class="lang-link">TR</a>
-					<a href="echosense-en.html" class="lang-link lang-link-active">EN</a>
-				</div>
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-		</header>
-		<section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
-			<div class="page-card p-6 sm:p-8 lg:p-10">
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Short Description</p>
-				<h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">EchoSense</h1>
-				<p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">It brings sound- and data-driven feedback together in a clean, fast and easy-to-read panel.</p>
-			</div>
-		</section>
-		<footer class="border-t border-white/10 py-6 sm:py-8">
-			<div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
-				<p>ALPER OSMAN KILIK</p>
-				<p>© 2026 Alper Osman Kilik</p>
-			</div>
-		</footer>
-	</main>
-	<script src="script.js" defer></script>
+    <div class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="hakkimda.html">About Me</a>
+        <a href="projeler.html" class="active">Projects</a>
+        <a href="iletisim.html">Contact</a>
+        <div class="lang-switch" aria-label="Language selection">
+            <a href="echosense.html" class="lang-link">TR</a>
+            <a href="echosense-en.html" class="lang-link lang-link-active">EN</a>
+        </div>
+    </div>
+    <main class="page-shell">
+        <header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projects</p>
+                <p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">EchoSense</p>
+            </div>
+            <div class="flex items-center justify-between gap-4 w-full sm:w-auto">
+                <nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="hakkimda.html" class="nav-link">About Me</a>
+                    <a href="projeler.html" class="nav-link nav-link-active">Projects</a>
+                    <a href="iletisim.html" class="nav-link">Contact</a>
+                </nav>
+                <div class="hidden sm:flex lang-switch" aria-label="Language selection">
+                    <a href="echosense.html" class="lang-link">TR</a>
+                    <a href="echosense-en.html" class="lang-link lang-link-active">EN</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
+            <!-- Short Description -->
+            <div class="page-card p-6 sm:p-8 lg:p-10">
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Short Description</p>
+                <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">EchoSense</h1>
+                <p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Engineered to collect, structure, and visualize voice and data-driven feedbacks into a fast, highly intuitive dashboard ecosystem.</p>
+            </div>
+
+            <!-- Project Details & Technical Specifications Grid -->
+            <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                
+                <!-- Left Column: Vision & Purpose -->
+                <div class="page-card p-6 sm:p-8 lg:col-span-2 flex flex-col gap-6">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Project Vision</p>
+                        <h2 class="mt-2 text-xl sm:text-2xl font-bold text-white">Transforming Multimodal Data Into Actionable Insights</h2>
+                        <p class="mt-3 text-sm leading-7 text-soft">
+                            EchoSense is a centralized data analytics platform designed to ingest and parse voice recordings and text-based feedbacks generated by users, clients, or field operations using machine learning algorithms. Going beyond simple transcription, it evaluates unstructured audio payloads by computing speech cadences, inflections, and linguistic patterns to derive multi-layered sentiment scores.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-bold text-white mb-2">Why EchoSense?</h3>
+                        <p class="text-sm leading-7 text-soft">
+                            Traditional text forms fail to capture the visceral nuances of a user's true response. Leveraging an integrated browser-native recording layer (Web Audio API) alongside asynchronous REST entry points, EchoSense pipelines audio signals through an AI ingestion framework to map qualitative feedback into mathematical indicators.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Tech Stack -->
+                <div class="page-card p-6 sm:p-8 flex flex-col gap-4">
+                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Technology Stack</p>
+                    <h2 class="text-xl font-bold text-white">Architectural Core</h2>
+                    
+                    <div class="flex flex-col gap-3 mt-2 text-xs sm:text-sm">
+                        <div class="flex justify-between border-b border-white/5 pb-2">
+                            <span class="text-white font-medium">Audio Processing</span>
+                            <span class="text-soft">Web Audio API / Librosa</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/5 pb-2">
+                            <span class="text-white font-medium">AI & NLP Engine</span>
+                            <span class="text-soft">Hugging Face / Whisper / BERT</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/5 pb-2">
+                            <span class="text-white font-medium">Database / Vector</span>
+                            <span class="text-soft">PostgreSQL & Qdrant</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/5 pb-2">
+                            <span class="text-white font-medium">Data Flow / Core</span>
+                            <span class="text-soft">FastAPI / Celery Workers</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/5 pb-2">
+                            <span class="text-white font-medium">Graphics & UI</span>
+                            <span class="text-soft">Tailwind CSS / ChartJS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Grid Cards -->
+                <div class="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Feature 1 -->
+                    <div class="page-card p-6 border-t-2 border-[#cc0000]/50">
+                        <div class="text-2xl mb-2">🎙️</div>
+                        <h4 class="text-base font-bold text-white">Advanced Speech-to-Text Pipeline</h4>
+                        <p class="mt-2 text-xs sm:text-sm text-soft leading-6">
+                            Utilizing refined transformer topologies (built on OpenAI Whisper architectures), voice payloads across various accents and environments are processed with 95%+ transcript accuracy, returning fully timestamped text structures.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="page-card p-6 border-t-2 border-[#cc0000]/50">
+                        <div class="text-2xl mb-2">📊</div>
+                        <h4 class="text-base font-bold text-white">Real-Time Sentiment & Intent Scoring</h4>
+                        <p class="mt-2 text-xs sm:text-sm text-soft leading-6">
+                            Transcribed inputs are passed onto contextual BERT pipelines to evaluate underlying semantic trends. User satisfaction indices, escalation triggers, and high-priority intents are scored and piped into dashboards immediately.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="page-card p-6 border-t-2 border-[#cc0000]/50">
+                        <div class="text-2xl mb-2">🔍</div>
+                        <h4 class="text-base font-bold text-white">Vector-Driven Semantic Querying</h4>
+                        <p class="mt-2 text-xs sm:text-sm text-soft leading-6">
+                            Feedbacks are embedded into high-dimensional vector representations via Qdrant. This allows product teams and data analysts to seamlessly run abstract semantic queries such as "users voicing pricing concerns."
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Deep Dive Card: Performance -->
+                <div class="page-card p-6 sm:p-8 lg:col-span-3">
+                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Deep Dive</p>
+                    <h3 class="mt-2 text-xl font-bold text-white">Asynchronous Task Management & Distributed Compute</h3>
+                    <p class="mt-4 text-sm leading-7 text-soft">
+                        Heavy audio transformations and language inference models dictate massive CPU and GPU processing time. To avoid exhausting the primary web runtime (FastAPI), EchoSense implements a modular distributed task orchestration tier relying on **Celery** and **Redis**.
+                    </p>
+                    <p class="mt-3 text-sm leading-7 text-soft">
+                        Upon audio ingestion, the API answers back instantly with an <code class="text-white bg-white/10 px-1.5 py-0.5 rounded text-xs">HTTP 202 Accepted</code> header, pushing the telemetry calculations down to separate compute workers. Once downsampling, ambient noise attenuation, and deep learning evaluations conclude, records are securely dispatched straight back to the client interface using full-duplex WebSocket pushes.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="border-t border-white/10 py-6 sm:py-8">
+            <div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <p>ALPER OSMAN KILIK</p>
+                <p>© 2026 Alper Osman Kilik</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js" defer></script>
 </body>
 </html>

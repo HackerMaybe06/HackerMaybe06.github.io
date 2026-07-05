@@ -1,69 +1,171 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>SkyRoute Control | ALPER OSMAN KILIK</title>
-	<meta name="description" content="SkyRoute Control, rota ve operasyon yönetimini tek ekranda izlemeyi kolaylaştıran panel." />
-	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-	<link rel="alternate icon" href="favicon.svg" />
-	<link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
-	<link rel="preload" href="styles.css" as="style" />
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyRoute Control | ALPER OSMAN KILIK</title>
+    <meta name="description" content="SkyRoute Control, rota ve operasyon yönetimini tek ekranda izlemeyi kolaylaştıran panel." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="preload" href="styles.css" as="style" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="antialiased">
-	<div class="mobile-nav">
-		<a href="index.html">Ana Sayfa</a>
-		<a href="hakkimda.html">Hakkımda</a>
-		<a href="projeler.html" class="active">Projeler</a>
-		<a href="iletisim.html">İletişim</a>
-		<div class="lang-switch" aria-label="Dil secimi">
-			<a href="skyroute-control.html" class="lang-link lang-link-active">TR</a>
-			<a href="skyroute-control-en.html" class="lang-link">EN</a>
-		</div>
-	</div>
-	<main class="page-shell">
-		<header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
-			<div>
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projeler</p>
-				<p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">SkyRoute Control</p>
-			</div>
-			<div class="flex items-center justify-between gap-4 w-full sm:w-auto">
-				<nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
-					<a href="index.html" class="nav-link">Ana Sayfa</a>
-					<a href="hakkimda.html" class="nav-link">Hakkımda</a>
-					<a href="projeler.html" class="nav-link nav-link-active">Projeler</a>
-					<a href="iletisim.html" class="nav-link">İletişim</a>
-				</nav>
-				<div class="hidden sm:flex lang-switch" aria-label="Dil secimi">
-					<a href="skyroute-control.html" class="lang-link lang-link-active">TR</a>
-					<a href="skyroute-control-en.html" class="lang-link">EN</a>
-				</div>
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-		</header>
-		<section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
-			<div class="page-card p-6 sm:p-8 lg:p-10">
-				<p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Kısa Açıklama</p>
-				<h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">SkyRoute Control</h1>
-				<p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Rota ve operasyon takibini tek ekranda toplayarak hızlı karar almayı kolaylaştıran bir kontrol katmanı sunuyor.</p>
-			</div>
-		</section>
-		<footer class="border-t border-white/10 py-6 sm:py-8">
-			<div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
-				<p>ALPER OSMAN KILIK</p>
-				<p>© 2026 Alper Osman Kilik</p>
-			</div>
-		</footer>
-	</main>
-	<script src="script.js" defer></script>
+    <div class="mobile-nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="projeler.html" class="active">Projeler</a>
+        <a href="iletisim.html">İletişim</a>
+        <div class="lang-switch" aria-label="Dil secimi">
+            <a href="skyroute-control.html" class="lang-link lang-link-active">TR</a>
+            <a href="skyroute-control-en.html" class="lang-link">EN</a>
+        </div>
+    </div>
+    <main class="page-shell">
+        <header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projeler</p>
+                <p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">SkyRoute Control</p>
+            </div>
+            <div class="flex items-center justify-between gap-4 w-full sm:w-auto">
+                <nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    <a href="hakkimda.html" class="nav-link">Hakkımda</a>
+                    <a href="projeler.html" class="nav-link nav-link-active">Projeler</a>
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </nav>
+                <div class="hidden sm:flex lang-switch" aria-label="Dil secimi">
+                    <a href="skyroute-control.html" class="lang-link lang-link-active">TR</a>
+                    <a href="skyroute-control-en.html" class="lang-link">EN</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
+            <!-- Üst Asimetrik Grid Yapısı -->
+            <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
+                
+                <!-- Sol Kolon -->
+                <div class="space-y-6">
+                    <div class="page-card overflow-hidden p-4 sm:p-5 lg:p-6">
+                        <div class="relative overflow-hidden rounded-[1.5rem] border border-white/10 bg-black">
+                            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(204,0,0,0.12),transparent_40%),radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent_30%)]"></div>
+                            <img src="turk-bayragi.svg" alt="SkyRoute Kontrol Paneli" class="relative h-[260px] w-full object-cover sm:h-[340px] lg:h-[420px]" loading="eager" decoding="async" />
+                        </div>
+                    </div>
+
+                    <div class="page-card p-6 sm:p-8 lg:p-10">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Telemetri ve Operasyon Yönetimi</p>
+                        <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">SkyRoute Control</h1>
+                        <p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">Rota ve operasyon takibini tek ekranda toplayarak hızlı karar almayı kolaylaştıran bir kontrol katmanı sunuyor. Aktif hava araçlarının koordinatlarını, anlık telemetri verilerini ve hava durumu katmanlarını tek bir operasyonel matris üzerinde birleştirir.</p>
+                    </div>
+                </div>
+
+                <!-- Sağ Kolon -->
+                <div class="space-y-6">
+                    <div class="grid gap-4 sm:grid-cols-2">
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Amaç</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Anlık değişen hava ve rota koşullarını, dispeçerlerin ve operasyon sorumlularının gecikmesiz izleyebileceği bir merkez oluşturmak.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Yapı</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Coğrafi harita entegrasyonu, irtifa/hız grafikleri, otonom sapma uyarıları ve dinamik vektör yönlendirmeleri.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Tasarım</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Havacılık standartlarına uygun koyu tema, karmaşadan arındırılmış göstergeler ve göz yormayan veri yoğunluğu planlaması.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Sonuç</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Yüksek frekanslı veri akışlarında bile donmayan, kritik telemetri kayıplarını minimize eden kararlı bir ön yüz mimarisi.</p>
+                        </div>
+                    </div>
+
+                    <div class="page-card p-6 sm:p-8">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Kısa Açıklama</p>
+                        <p class="mt-4 text-sm sm:text-base leading-7 text-soft">Bu proje, lojistik ve havacılık ağlarında uçuş emniyetini ve rota verimliliğini maksimize etmek üzere tasarlandı. WebSocket tabanlı veri beslemelerinin işlenmesi ve operasyon alanının gerçek zamanlı haritalandırılması hedeflenmiştir.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teknik Derinlik ve Altyapı Blokları -->
+            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+                
+                <!-- Veri Optimizasyonu Kartı -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Mimarî</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Yüksek Frekanslı Telemetri Ayrıştırma</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Hava araçlarından gelen saniyelik ham koordinat ve telemetri paketleri, ana arayüz iş parçacığını (main thread) bloke etmemek adına Web Workers üzerinde çözümlenir ve filtrelenerek ekrana aktarılır.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Teknolojiler:</span> Web Workers / Protocol Buffers / WebSocket
+                    </div>
+                </div>
+
+                <!-- Coğrafi İşleme Kartı -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between border-t-2 border-[#cc0000]/50">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Haritalandırma</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Donanım Hızlandırmalı GIS Katmanları</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Eş zamanlı yüzlerce rotanın ve hava koridorunun harita üzerinde çizilmesi, WebGL tabanlı render motorları vasıtasıyla GPU'ya yüklenir. Bu sayede harita üzerinde akıcı kaydırma ve yakınlaştırma performansı elde edilir.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Grafik Hattı:</span> WebGL / Mapbox GL / GeoJSON Vector Tile
+                    </div>
+                </div>
+
+                <!-- Algoritma Kartı -->
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Hesaplama</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Dinamik Rota Yeniden Hesaplama</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Olası hava muhalefeti veya yasaklı bölge ihlallerinde, alternatif güvenli rotalar coğrafi matematik algoritmaları kullanılarak hesaplanır. Önerilen yeni koordinat vektörleri ekranda anlık olarak simüle edilir.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Metotlar:</span> Haversine Formülü / Great-Circle Distance
+                    </div>
+                </div>
+
+                <!-- Geniş Derinlemesine İnceleme Kartı -->
+                <div class="page-card p-6 sm:p-8 lg:col-span-3">
+                    <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Sistem Entegrasyonu</p>
+                    <h3 class="mt-2 text-xl font-bold text-white">Operasyonel Kararlılık ve Kesintisiz Veri Senkronizasyonu</h3>
+                    <p class="mt-4 text-sm leading-7 text-soft">
+                        SkyRoute Control, kritik görev (mission-critical) standartlarına uygun olarak tasarlanmıştır. Ağ dalgalanmaları veya geçici bağlantı kopmaları durumunda veri kaybını önlemek amacıyla, istemci tarafında **bilişsel bir yerel önbellek (local state buffer)** katmanı barındırır. Bağlantı tekrar kurulduğunda, eksik kalan telemetri çerçeveleri zaman damgalarına göre otomatik olarak hizalanır ve rota bütünlüğü korunur.
+                    </p>
+                    <p class="mt-3 text-sm leading-7 text-soft">
+                        Arayüzün durum yönetimi (state management), reaktif ve öngörülebilir veri akış şablonları üzerine kurulmuştur. Bu mimari sayesinde, sisteme bağlı olan her bir dispeçer konsolu, merkez sunuculardan dağıtılan hava sahası güncellemelerini eş zamanlı olarak alır ve operasyon odasındaki tüm ekranlar arasında milisaniyelik tam bir senkronizasyon sağlanır.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="border-t border-white/10 py-6 sm:py-8">
+            <div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <p>ALPER OSMAN KILIK</p>
+                <p>© 2026 Alper Osman Kilik</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js" defer></script>
 </body>
 </html>

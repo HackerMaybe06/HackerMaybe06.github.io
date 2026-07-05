@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube MP3 Downloader | ALPER OSMAN KILIK</title>
+    <meta name="description" content="YouTube videolarını asenkron ve yüksek kalitede MP3 formatına dönüştürüp indiren otomasyon projesi." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.svg" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="preload" href="styles.css" as="style" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased">
+    <div class="mobile-nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="projeler.html" class="active">Projeler</a>
+        <a href="iletisim.html">İletişim</a>
+        <div class="lang-switch" aria-label="Dil secimi">
+            <a href="youtube-downloader.html" class="lang-link lang-link-active">TR</a>
+            <a href="youtube-downloader-en.html" class="lang-link">EN</a>
+        </div>
+    </div>
+    <main class="page-shell">
+        <header class="mx-auto flex max-w-7xl flex-col gap-3 items-start sm:items-center sm:justify-between px-4 sm:px-6 py-6 lg:px-10 lg:py-8">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.35em] sm:tracking-[0.4em] text-[#cc0000]">Projeler</p>
+                <p class="mt-1 sm:mt-2 text-xs sm:text-sm text-soft">YouTube MP3 Downloader</p>
+            </div>
+            <div class="flex items-center justify-between gap-4 w-full sm:w-auto">
+                <nav class="hidden sm:flex flex-wrap items-center justify-end gap-2 text-xs sm:text-sm font-medium">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    <a href="hakkimda.html" class="nav-link">Hakkımda</a>
+                    <a href="projeler.html" class="nav-link nav-link-active">Projeler</a>
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </nav>
+                <div class="hidden sm:flex lang-switch" aria-label="Dil secimi">
+                    <a href="youtube-downloader.html" class="lang-link lang-link-active">TR</a>
+                    <a href="youtube-downloader-en.html" class="lang-link">EN</a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section pb-16 sm:pb-20 pt-8 sm:pt-10 lg:pt-16 cv-auto">
+            <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
+                
+                <div class="space-y-6">
+                    <div class="page-card p-6 sm:p-8 lg:p-10">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Medya İşleme & Otomasyon</p>
+                        <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold uppercase tracking-[0.08em] text-white">YouTube MP3 Downloader</h1>
+                        <p class="mt-4 max-w-3xl text-sm sm:text-base leading-7 text-soft">YouTube üzerinden hedef videoların ses akışlarını (audio streams) ayrıştırarak çeken, arabelleğe alan ve FFmpeg entegrasyonuyla kayıpsız bir şekilde yüksek kaliteli MP3 formatına dönüştüren optimize edilmiş bir otomasyon aracı.</p>
+                        
+                        <div class="mt-6 flex flex-wrap gap-4 items-center">
+                            <a href="https://github.com/alperkilik06/YoutubeMP3Downloader" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-white/5 border border-white/10 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-white transition-all hover:bg-[#cc0000] hover:border-[#cc0000]">
+                                GitHub'da Görüntüle
+                                <svg class="ml-2 h-4 w-4 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="grid gap-4 sm:grid-cols-2">
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Veri Akışı</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">Video kaynağından yalnızca ses verisini (`audio-only`) izole ederek indirir, hücresel veri ve zaman tasarrufu sağlar.</p>
+                        </div>
+                        <div class="page-card p-5">
+                            <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Kod Çevrimi</p>
+                            <p class="mt-2 text-sm leading-6 text-soft">FFmpeg kodlayıcı mimarisi sayesinde indirilen ham ses dosyalarını aslına sadık kalarak 320kbps MP3 formatına işler.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="page-card p-6 sm:p-8">
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Öne Çıkan Özellikler</p>
+                        <ul class="mt-4 space-y-3 text-sm text-soft leading-6">
+                            <li class="flex items-start gap-2">
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#cc0000]"></span>
+                                <span><strong>Hızlı Ayrıştırma:</strong> YouTube video manifestolarını hızla tarayan güncel parser yapısı.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#cc0000]"></span>
+                                <span><strong>FFmpeg Entegrasyonu:</strong> Format dönüştürme işlemlerinde doğrudan sistem codec kütüphaneleriyle iletişim.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#cc0000]"></span>
+                                <span><strong>Hata Yönetimi:</strong> Ağ kopmalarında veya kısıtlanmış videolarda akıllı hata yakalama (exception handling).</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="page-card p-6">
+                        <p class="text-xs uppercase tracking-[0.3em] text-[#cc0000]">Geliştirici Notu</p>
+                        <p class="mt-2 text-xs sm:text-sm leading-6 text-soft">Bu araç, özellikle büyük çalma listeleri veya uzun süreli ses kayıtlarının yerel arşivlere hızlı bir şekilde aktarılması sürecindeki manuel adımları otomatize etmek amacıyla tasarlanmıştır.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-3">
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Pipeline</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Stream İzolasyonu</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Gereksiz video çözünürlük verileri (mp4/webm) tamamen göz ardı edilerek sadece en yüksek bitrate değerine sahip ses dosyası (`dash audio`) havuzdan çekilir.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Bant Genişliği:</span> Optimized Payload Delivery
+                    </div>
+                </div>
+
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between border-t-2 border-[#cc0000]/50">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Mühendislik</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">FFmpeg Dönüşüm Döngüsü</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            İndirilen ham ses akışı, bit hızı (bitrate) ve örnekleme frekansı (sampling rate) kayba uğramadan saniyeler içinde hedef MP3 konteynerine paketlenir.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Codec:</span> libmp3lame / 320 kbps Encoding
+                    </div>
+                </div>
+
+                <div class="page-card p-6 sm:p-8 flex flex-col justify-between">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#cc0000]">Dosya Düzeni</p>
+                        <h3 class="mt-2 text-xl font-bold text-white">Otomatik Meta Tagging</h3>
+                        <p class="mt-3 text-xs sm:text-sm text-soft leading-6">
+                            Dosya isimlerindeki geçersiz karakterlerin temizlenmesi (sanitization) ve çıktı klasör yapısının hiyerarşik olarak otomatik düzenlenmesi sağlanır.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-white/5 text-xs text-soft">
+                        <span class="text-white font-medium">Girdi/Çıktı:</span> IO Sanitization / Directory Mapping
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-white/10 py-6 sm:py-8">
+            <div class="mx-auto flex max-w-7xl flex-col gap-2 sm:gap-3 px-4 sm:px-6 text-xs sm:text-sm text-soft lg:flex-row lg:items-center lg:justify-between lg:px-10">
+                <p>ALPER OSMAN KILIK</p>
+                <p>© 2026 Alper Osman Kilik</p>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
